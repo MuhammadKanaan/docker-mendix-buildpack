@@ -5,7 +5,7 @@
 # Version: 2.0.0
 ARG ROOTFS_IMAGE=mendix/rootfs:trusty
 
-FROM ${ROOTFS_IMAGE}
+FROM ${pcfnorm/rootfs}
 LABEL Author="Mendix Digital Ecosystems"
 LABEL maintainer="digitalecosystems@mendix.com"
 
